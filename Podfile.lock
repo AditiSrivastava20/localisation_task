@@ -1,0 +1,12 @@
+PODS:
+  - Localize-Swift (1.7.1)
+
+DEPENDENCIES:
+  - Localize-Swift
+
+SPEC CHECKSUMS:
+  Localize-Swift: 6cabc1087c0e910e77bfa87c2ed3f65c80c0b2df
+
+PODFILE CHECKSUM: f18e99118e3c8b33ea6b14933c9eb7dd7c6fd431
+
+COCOAPODS: 1.2.0
