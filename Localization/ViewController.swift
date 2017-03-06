@@ -15,17 +15,42 @@ class ViewController: UIViewController {
   
     @IBOutlet weak var text2: UITextField!
     @IBOutlet weak var text1: UITextField!
-    var language: String?
+   
       override func viewDidLoad() {
         super.viewDidLoad()
-        //text1.text = NSLocalizedString("first", comment: "this is a demo")
-       // text2.text = NSLocalizedString("second", comment: "this is a demo")
-       
-        // Do any additional setup after loading the view, typically from a nib.
+        //Localize.setCurrentLanguage("en")
+        
+      
     }
 
+    
+    
+    
     @IBAction func SegmentAction(_ sender: Any) {
-        if(segmentControl.selectedSegmentIndex == 0)
+        
+        let language =  Languages(rawValue: (sender as AnyObject).selectedSegmentIndex) ?? .english
+        reloadLayout(withLanguage:language)
+ 
+        
+    }
+    
+    fileprivate func reloadLayout(withLanguage language : Languages){
+        
+        text1.text = "first".localized()
+        text2.text = "second".localized()
+       
+        text1.textAlignment = language.orientation
+        text2.textAlignment = language.orientation
+       
+        Localize.setCurrentLanguage(language.code)
+        
+    }
+    
+    
+    
+}
+
+        /*if
         {
             Localize.setCurrentLanguage("en")
             English()
@@ -60,8 +85,6 @@ class ViewController: UIViewController {
        override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-    }
+    }*/
 
-
-}
 

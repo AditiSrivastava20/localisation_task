@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D931CDF1E682122003AE3E2 /* enumFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D931CDE1E682122003AE3E2 /* enumFile.swift */; };
 		1DA008331E66DF2100ED6DCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA008321E66DF2100ED6DCC /* AppDelegate.swift */; };
 		1DA008351E66DF2100ED6DCC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA008341E66DF2100ED6DCC /* ViewController.swift */; };
 		1DA008381E66DF2100ED6DCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DA008361E66DF2100ED6DCC /* Main.storyboard */; };
@@ -38,6 +39,7 @@
 /* Begin PBXFileReference section */
 		0E6F8A45397076C099CBCE85 /* Pods-Localization.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Localization.release.xcconfig"; path = "Pods/Target Support Files/Pods-Localization/Pods-Localization.release.xcconfig"; sourceTree = "<group>"; };
 		1158719D5437ABF75BB34C30 /* Pods-LocalizationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocalizationTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LocalizationTests/Pods-LocalizationTests.release.xcconfig"; sourceTree = "<group>"; };
+		1D931CDE1E682122003AE3E2 /* enumFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = enumFile.swift; sourceTree = "<group>"; };
 		1DA0082F1E66DF2100ED6DCC /* Localization.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Localization.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DA008321E66DF2100ED6DCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1DA008341E66DF2100ED6DCC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 				1DA008391E66DF2100ED6DCC /* Assets.xcassets */,
 				1DA0083B1E66DF2100ED6DCC /* LaunchScreen.storyboard */,
 				1DA0083E1E66DF2100ED6DCC /* Info.plist */,
+				1D931CDE1E682122003AE3E2 /* enumFile.swift */,
 			);
 			path = Localization;
 			sourceTree = "<group>";
@@ -429,6 +432,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D931CDF1E682122003AE3E2 /* enumFile.swift in Sources */,
 				1DA008351E66DF2100ED6DCC /* ViewController.swift in Sources */,
 				1DA008331E66DF2100ED6DCC /* AppDelegate.swift in Sources */,
 			);
